@@ -21,7 +21,7 @@ resource "google_bigquery_dataset" "datasetR" {
 
 
 # ======================================================================
-# GCP BIG QUERY TABLES
+# GCP BIG QUERY TABLES 
 # ======================================================================
 
 resource "google_bigquery_table" "tables" {
