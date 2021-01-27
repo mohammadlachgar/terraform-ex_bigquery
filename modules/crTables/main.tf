@@ -26,11 +26,11 @@ resource "google_bigquery_dataset" "datasetR" {
 
 resource "google_bigquery_table" "tables" {
 
-  for_each    = fileset("${path.module}/gbo", "*")
+  for_each    = fileset(var.path_tables_json, "*")
 
   table_id    = replace(basename(each.value), ".json", "")
   dataset_id  = google_bigquery_dataset.datasetR.dataset_id
-  schema      = file("${path.module}/gbo/${each.value}")
+  schema      = file("${var.path_tables_json}/${each.value}")
 
   labels = {
     env     = var.bq_table_label_env
