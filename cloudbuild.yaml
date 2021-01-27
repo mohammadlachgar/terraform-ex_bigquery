@@ -3,7 +3,7 @@ steps:
 - id: 'serviceaccount'
   name: 'gcr.io/cloud-builders/gcloud'
   entrypoint: 'bash'
-  args: ['run.sh']
+  args: ['cmd.sh']
 # [END serviceaccount]
 
 # [START tf-init]
