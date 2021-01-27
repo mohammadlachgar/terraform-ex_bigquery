@@ -1,0 +1,62 @@
+[
+	{
+	   "name" : "AXE_CODE",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "DESCRIPTION_FR",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "DESCRIPTION_EN",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "IPH_CODE",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "DELETED",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "DELETION_DATE",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "ACD_SORT_ORDER",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "CPD_SORT_ORDER",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "LLD_SORT_ORDER",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "PPD_SORT_ORDER",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "TBS_SORT_ORDER",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "GRP_SORT_ORDER",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "RUNNING_DATE",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "system_source",
+	   "type" : "STRING"
+	},
+	{
+	   "name" : "loading_date",
+	   "type" : "STRING"
+	}
+   ]
