@@ -30,9 +30,6 @@ variable "bq_creator" {
   type    = string
 }
 
-variable "env" {
-  type    = string
-}
 
 variable "bq_description" {
   type    = string
