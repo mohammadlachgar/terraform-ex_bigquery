@@ -2,6 +2,7 @@
 # GCP BIGQUERY GENERIC PROPERTIES
 # ========================================================================================
 
+project     = "burnished-case-280710"
 region      = "europe-west1"
 zone        = "europe-west1-b"
 credentials = "../../creds/serviceaccount.json"
