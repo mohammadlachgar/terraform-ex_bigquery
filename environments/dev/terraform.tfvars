@@ -2,6 +2,7 @@
 # GCP BIGQUERY GENERIC PROPERTIES
 # ========================================================================================
 
+project     = "burnished-case-280710"
 region      = "europe-west1"
 zone        = "europe-west1-b"
 credentials = "../../creds/serviceaccount.json"
@@ -12,9 +13,9 @@ credentials = "../../creds/serviceaccount.json"
 # ========================================================================================
 
 
-  bq_location = "EU"
+  bq_location    = "EU"
 
-  bq_creator = "github-ahmed"
+  bq_creator     = "github-ahmed"
 
   bq_description = "dataset description"
 
@@ -24,7 +25,7 @@ credentials = "../../creds/serviceaccount.json"
 # ========================================================================================
 
 
-  bq_staging_dataset = "myDataset"
+  bq_staging_dataset                = "myDataset"
 
 
   bq_datasets_delete_data_on_destroy = true
