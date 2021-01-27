@@ -6,7 +6,6 @@ module "crTables" {
   source  = "../../modules/crTables/"
   project = var.project
   env     = local.env
-  path_tables_json = "${path.root}/qualified/gbo"
   bq_staging_dataset = "${local.env}_${var.bq_staging_dataset}"
   bq_description = var.bq_description
   bq_location = var.bq_location

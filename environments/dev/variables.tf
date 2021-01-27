@@ -18,9 +18,7 @@ variable "env" {
   type = string
 }
 
-variable "path_tables_json" {
-  type    = string
-}
+
 
 # ========================================================================================
 # GCP BIGQUERY GENERIC PROPERTIES
