@@ -1,6 +1,16 @@
+variable "project" {
+  type = string
+}
+
+variable "env" {
+  type    = string
+  default = "test"
+}
+
 # ========================================================================================
 # GCP BIGQUERY GENERIC PROPERTIES
 # ========================================================================================
+
 
 variable "bq_location" {
   type    = string
@@ -12,10 +22,6 @@ variable "bq_creator" {
   default = "github-ahmed"
 }
 
-variable "env" {
-  type    = string
-  default = "test"
-}
 
 variable "bq_description" {
   type    = string
